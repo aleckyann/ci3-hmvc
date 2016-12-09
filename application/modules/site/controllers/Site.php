@@ -11,15 +11,4 @@ class Site extends MX_Controller {
 	{
 	    $this->load->view('index');
 	}
-
-	public function contato()
-	{
-	    $this->load->view('contato');
-	}
-
-	public function servicos()
-	{
-	    $this->load->view('servicos');
-	}
-	
 }
